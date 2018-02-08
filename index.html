@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang en>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="TK Templin">
+	<link rel="stylesheet" href=".\assets/CSS/style.css">
+	<title>NeoBunny Castle</title>
+</head>
+<body>
+<div class="container">
+	<!-- Banner containing page name and... that's basically it -->
+	<header role="banner">
+		<h1>NeoBunny Castle</h1>
+		<p>The background is a photo I took of the moon and night sky with the glare of the street lights. I thought it looked creepy in a cool kind of way, especially with the layering of it being a background image that isn't enlarged to fit the window.</p>
+	</header>
+	<!-- Container for using flexbox on the main and aside -->	
+	<div class="flex-container">
+		<!-- Main stuff -->
+		<main role="main">
+			<h2>Stuff About Me</h2>
+			<article id="games">
+				<h3>Games</h3>
+				<p>
+				I am an avid gamer who really likes video games and tabletop games. I also like card games, particularly CCGs, though most of my favorite CCGs have sadly ended. In terms of video games, I tend to be more of a fan of older games, mostly platform games and jRPGs. Wild ARMS, Persona, Sonic and Mega Man are some favorite franchises of mine.
+				</p>
+			</article>
+			<article id="stories">
+				<h3>Stories</h3>
+				<p>
+				I am also a writer and reader. So much so that my BA from UCSC is in English Literature, though I prefer the creative side of writing much more than the technical one. While I read a variety of things, I prefer to write fantasy and science fiction. I like larger than life characters and events, and it's harder to do that and remain plausible in more contemporary real world fiction. Inspirations of mine include Star Trek and many other television shows from the 80s and 90s era; many comics, cartoons and anime; as well as authors like Madeleine L'Engle and J.K. Rowling, among others. I also write fanfiction on occasion, mostly of super hero comics, with X-Men being a favorite of mine.
+				</p>
+			</article>
+		</main>
+		<!-- Side stuff... basically navigation and links -->
+		<aside role="complementary">
+			<nav role="navigation">
+				<h1>Page Contents</h1>
+				<ul title="Table of Contents" class="link-list">
+					<li>Stuff I Like!
+						<ul>
+							<li><a href="#games" title="Read about games">Games!</a></li>
+							<li><a href="#stories" title="Read about stories">Stories!</a></li>
+						</ul>
+					</li>
+				</ul>
+				<h1>Links</h1>
+				<ul>
+					<li><a href="http:\\www.rpgamer.com" title="Link to RPGamer.com">RPGamer</a></li>
+				</ul>
+			</nav>
+		</aside>
+	</div>
+	<!-- Footer containing year and copyright info -->
+	<footer role="contentinfo" id="end">
+		<p><small>&copy; Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script> TK Templin. </p>
+	</footer>
+</div>
+</body>
+</html>
